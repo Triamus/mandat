@@ -1,9 +1,9 @@
 Package: mandat
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Manage Data Fast
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Author: Triamus
+Maintainer: The package maintainer <masteraxel@gmx.de>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
