@@ -15,16 +15,14 @@
 
 agg_tbl <-
   function(dt, metric, metric_name = metric,
-           dimension, dimension_name = dimension,
-           agg_fn = "sum", na.rm = TRUE) {
+           dimension, agg_fn = "sum", na.rm = TRUE) {
 
-    options(datatable.verbose=TRUE)
+    #options(datatable.verbose=TRUE)
     e <- function(x) getFunction(agg_fn)(x, na.rm = na.rm)
 
     temp <- dt[, setNames(lapply(.SD, e), metric_name),
                keyby = dimension, .SDcols = metric]
     temp[]
-
   }
 
 
