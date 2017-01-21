@@ -20,9 +20,8 @@ agg_tbl <-
     #options(datatable.verbose=TRUE)
     e <- function(x) getFunction(agg_fn)(x, na.rm = na.rm)
 
-    temp <- dt[, setNames(lapply(.SD, e), metric_name),
-               keyby = dimension, .SDcols = metric]
-    temp[]
+    dt[, setNames(lapply(.SD, e), metric_name),
+       keyby = dimension, .SDcols = metric][]
   }
 
 
