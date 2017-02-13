@@ -7,6 +7,9 @@
 #' @param na.rm logical. Should missing values (including NaN) be removed?
 #' @return Returns a data.table
 #' @export
+#' @import data.table
+#' @importFrom methods getFunction
+#' @importFrom stats setNames
 #' @examples
 #' \dontrun{
 #' to follow
