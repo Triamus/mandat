@@ -4,7 +4,7 @@
 \alias{agg_tbl}
 \title{Aggregates a data.table}
 \usage{
-agg_tbl(dt, metric, metric_name, dimension, dimension_name, agg_fn,
+agg_tbl(dt, metric, metric_name = metric, dimension, agg_fn = "sum",
   na.rm = TRUE)
 }
 \arguments{
@@ -15,8 +15,6 @@ agg_tbl(dt, metric, metric_name, dimension, dimension_name, agg_fn,
 \item{metric_name}{A vector of variable name(s) for the numeric variable(s) to aggregate. Defaults to metric.}
 
 \item{dimension}{A vector of dimension variable(s) to aggregate by}
-
-\item{dimension_name}{A vector of dimension variable name(s) for the dimension variable(s). Defaults to dimension.}
 
 \item{agg_fn}{An aggregation function}
 
