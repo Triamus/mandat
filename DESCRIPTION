@@ -8,7 +8,7 @@ Authors@R: c(
     person("Alexander", "Wagner", , "masteraxel@gmx.de", c("aut", "cre")))
 URL: https://github.com/Triamus/mandat
 BugReports: https://github.com/Triamus/mandat/issues
-License: What license is it under?
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Depends:
