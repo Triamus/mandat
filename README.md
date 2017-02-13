@@ -1,5 +1,6 @@
-# mandat: manage data fast<br/>
+# mandat: manage data fast
 fast data aggregation and wrangling with function wrappers around [data.table](https://github.com/Rdatatable/data.table) library
+
 ---------------
 
 **Authors:** Alexander Wagner<br/>
