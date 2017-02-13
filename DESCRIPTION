@@ -1,15 +1,21 @@
 Package: mandat
 Type: Package
-Title: Manage Data Fast
-Version: 0.1.0
-Author: Triamus
-Maintainer: The package maintainer <masteraxel@gmx.de>
+Version: 0.0.0.9000
+Title: Manage Data Fast with data.table Function Wrappers
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
+Authors@R: c(
+    person("Alexander", "Wagner", , "masteraxel@gmx.de", c("aut", "cre")))
+URL: https://github.com/Triamus/mandat
+BugReports: https://github.com/Triamus/mandat/issues
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Depends:
+    R (>= 3.2.0)
 Imports:
-    data.table
+    data.table,
+	methods,
+	stats
 RoxygenNote: 5.0.1
 Suggests: testthat

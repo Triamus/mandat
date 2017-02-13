@@ -1,3 +1,4 @@
+library(data.table)
 n_size <- 1*10^2
 sample_metrics <- rep(1, n_size)
 sample_dimensions <- rep(letters[10:11], (n_size / 2))
