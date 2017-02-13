@@ -1,5 +1,11 @@
-# mandat - Manage data fast
-Fast data aggregation and wrangling with function wrappers around [data.table](https://github.com/Rdatatable/data.table) library.
+# mandat: manage data fast<br/>
+fast data aggregation and wrangling with function wrappers around [data.table](https://github.com/Rdatatable/data.table) library
+---------------
+
+**Authors:** Alexander Wagner<br/>
+**License:** [GPL >= 3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+[![Build Status](https://travis-ci.org/juliasilge/tidytext.svg?branch=master)](https://travis-ci.org/juliasilge/tidytext)
 
 * functions assume transactional data with metrics (facts) and attributes (dimensions)
 * current dev around two functions
