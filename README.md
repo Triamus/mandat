@@ -5,6 +5,8 @@ summary: fast data aggregation and wrangling with function wrappers around [data
 **License:** [GPL >= 3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 [![Build Status](https://travis-ci.org/Triamus/mandat.svg?branch=master)](https://travis-ci.org/Triamus/mandat)
+[![Build status](https://ci.appveyor.com/api/projects/status/2juv1mpsoq6633up/branch/master?svg=true)](https://ci.appveyor.com/project/Triamus/mandat/branch/master)
+[![Coverage Status](https://coveralls.io/repos/github/Triamus/mandat/badge.svg?branch=master)](https://coveralls.io/github/Triamus/mandat?branch=master)
 
 * functions assume transactional data with metrics (facts) and attributes (dimensions)
 * current dev around two functions
